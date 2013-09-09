@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+ <head> 
+  <meta name="" content="">
+  <title="Formulario"/>
+ </head>
+
+ <body>
+  <form action="datos.html" method="GET">
+
+  <head>
+   <h1>Agregar Empleado</h1>
+  </head>
+
+  <section>
+   
+    <fieldset style="width:50%; background:#F2F2F2;">
+     <legend style="color:#585858"> <h2>Laboral</h2> </legend>
+     <p> C&oacutedigo <font color="red">*</font></p>
+      <input type="text" name="codigo"/>
+     <p>Fecha de ingreso</p>
+      <input type="text" name="fech_ingreso"/>
+     <p>Seguridad Social<font color="red"> *</font></p>
+      <select name="nss">
+       <option value="nss1">Opcion1</option>
+       <option value="nss2">Opcion2</option>
+       <option value="nss3">Opcion3</option>
+      </select>
+     <p>N&uacutemero</p>
+     <input type="text" name="numero"/>
+    </fieldset>  <br/>  
+
+    
+    <fieldset style="width:50%; background:#F2F2F2;">
+     <legend style="color:#585858"> <h2>Personal</h2> </legend>
+     <p>Nombre<font color="red"> *</font></p>
+      <input type="text" name="nomb_pers"/>
+     <p>Apellido Paterno <font color="red"> *</font> </p>
+      <input type="text" name="ap_paterno"/>
+     <p>Apellido Materno <font color="red"> *</font> </p>
+      <input name="ap_materno"/>
+     <p>Foto</p>
+      <input type="file" accept="image/*">
+     <p>Sexo</p>
+      <input type="radio" name="sexo" id="radioM" value="Hombre" checked/>
+       <label for="radioM">masculino<label>
+      <input type="radio" name="sexo" id="radioF" value="Mujer"/>
+       <label for="radioF">femenino</label>
+      <p>Estado Civil</p>
+       <select name="Edo_civil">
+        <option value="soltero">Solter@</option>    
+        <option value="casado">Casad@</option>  
+        <option value="divorciado">Divorciad@</option>  
+        <option value="viudo">Viud@</option>    
+       </select>
+    </fieldset>  <br/>
+    
+
+    <fieldset style="width:50%; background:#F2F2F2;">
+     <legend style="color:#585858"> <h2>Nacimiento</h2> </legend>
+      <p>Fecha</p>
+       <input type="text" name="fech_nac"/>
+      <p>Pa&iacutes</p>
+       <select name="pais">
+        <option value="mexico">M&eacutexico</option>
+        <option value="america">E.U.A</option>
+        <option value="alemania">Alemania</option>
+        <option value="francia">Francia</option>
+        <option value="japon">Jap&oacuten</option>
+       </select>
+    </fieldset> <br/>
+   
+
+    <fieldset style="width:50%; background:#F2F2F2;">
+     <legend style="color:#585858"> <h2>Contacto</h2> </legend>
+     <p>Titulo</p>
+      <input type="text" name="nombre">
+     <p>CURP</p>
+      <input type="text" name="curp">
+     <p>RFC</p>
+      <input type="text" name="rfc">
+     <p>Tel&eacutefono</p>
+      <input type="text" name="telefono">
+     <p>Celular</p>
+      <input type="text" name="celular">
+     <p>Domicilio</p>
+      <input type="text" name="domicilio">
+     <p>Colonia</p>
+      <input type="text" name="colonia">
+     <p>C&oacutedigo Postal</p>
+      <input type="text" name="CP">
+     <p>Pa&iacutes</p>
+      <input type="text" name="pais">
+     <p>Radio</p>
+      <input type="text" name="radio">
+     <p>Correo Electr&oacutenico</p>
+      <input type="text" name="correo">
+     <p>Observaciones</p>
+       <textarea name="observaciones" rows="10" cols="30"> </textarea>
+    </fieldset>
+
+
+    <div>
+     <input type="reset" value="Cancelar">
+     <input type="submit" value="Agregar">
+    </div>
+
+  </section>
+  </form>
+ </body>
+</html>
